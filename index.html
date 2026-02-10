@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effendy Barber Shop</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/70ac695972.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <section class="hero" id="home">
+            <header>
+                <div class="header-top">
+                    <div class="call-us">
+                        <i class="fa-solid fa-phone"></i>
+                        <span data-lang="callUs"> Call Us : <span style="color: gray;"> 999 99 99 </span> </span>
+                    </div>
+
+                    <div class="cutter"></div>
+
+                    <div class="social-medias">
+                        <ul class="socials">
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-whatsapp"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                            <li><i class="fa-solid fa-comment-dots"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="cutter"></div>
+
+                    <div class="hours">
+                        <i class="fa-solid fa-clock"></i>
+                        <span data-lang="openingHours">Opening Hours : <span style="color: gray;"> 09:00 - 21:00 </span> </span>
+                    </div>
+
+                </div>
+                <div class="header-bottom">
+                    <div class="logo">
+                        <h1 class="" style="color: #D5A153;">EFFENDY</h1>
+                        <span style="color: white;">KUAFÖR</span>
+                    </div>
+                    
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#home" data-lang="menuHome">Home</a></li>
+                            <li><a href="#services" data-lang="menuServices">Services</a></li>
+                            <li><a href="#appointment" data-lang="menuAppointment">Appointment</a></li>
+                            <li><a href="#location" data-lang="menuLocation">Location</a></li>
+                            <li><a href="#contact" data-lang="menuContact">Contact</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <button class="btn-appointment">
+                        <a href="#appointment">Randevu Al</a>
+                    </button>
+
+                    <div class="lang-dropdown">
+                        <button class="lang-current">
+                            TR <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <ul class="lang-menu">
+                            <li data-lang-btn="tr">Türkçe</li>
+                            <li data-lang-btn="en">English</li>
+                            <li data-lang-btn="de">Deutsch</li>
+                            <li data-lang-btn="ar">العربية</li>
+                        </ul>
+                    </div>
+
+                    <nav class="mobile-nav">
+                    <!-- checkbox -->
+                    <input type="checkbox" id="menu-toggle">
+
+                    <!-- hamburger ikon -->
+                    <label for="menu-toggle" class="menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+
+                    <ul class="mobile-menu">
+                        <li><a href="#home" data-lang="menuHome">Home</a></li>
+                        <li><a href="#services" data-lang="menuServices">Services</a></li>
+                        <li><a href="#appointment" data-lang="menuAppointment">Appointment</a></li>
+                        <li><a href="#location" data-lang="menuLocation">Location</a></li>
+                        <li><a href="#contact" data-lang="menuContact">Contact</a></li>
+
+                    </ul>
+                    </nav>
+                </div>
+            </header>
+
+             
+            <section class="home-content">
+                <div class="home-content-container">
+                    <h1 class="home-content-text" data-lang="heroTitle"> Barbers & Hair Cutting </h1>
+
+                    <p class="home-content-text2" data-lang="heroSubtitle"> 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                        Perspiciatis ad vel eligendi sed doloremque tenetur a accusamus? Provident<br>
+                        rem id maxime nesciunt praesentium itaque esse voluptas eum possimus? Minima, a?
+                    </p>
+
+                    <button class="btn-appointment" id="button2" data-lang="heroButton">
+                     <a href="#appointment">Hemen Randevu Alın</a><i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </section> 
+        </section>
+
+
+        <section class="services" id="services">
+            <div class="services-top">
+                <h1 class="services-top-text1" data-lang="servicesTitle">SERVICE WE PROVIDE </h1> <br>
+
+                <p class="services-top-text2" data-lang="servicesSubtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Error velit tenetur, voluptas dolorum eius nulla rerum ipsum, atque fuga aperiam.</p>
+            </div>
+
+            <div class="services-area">
+
+                <ul class="cards">
+                    <li class="card">
+                        <img src="images/icon1.png" class="icon1">
+                        <h2 class="card-head-text1" data-lang="serviceHaircut">Saç Kesimi</h2>
+                        <p data-lang="textHaircut">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Error velit tenetur, voluptas dolorum eius nulla rerum ipsum</p>
+                        
+                    </li>
+
+                    <li class="card">
+                        <img src="images/icon2.png">
+                        <h2 data-lang="serviceBeard">Sakal Tıraşı</h2>
+                        <p data-lang="textBeard">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Error velit tenetur, voluptas dolorum eius nulla rerum ipsum</p>
+                        
+                    </li>
+
+                    <li class="card">
+                        <img src="images/icon3.png">
+                        <h2 data-lang="serviceCombo">Saç + Sakal</h2>
+                        <p data-lang="textCombo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Error velit tenetur, voluptas dolorum eius nulla rerum ipsum</p>
+                        
+                    </li>
+
+                    <li class="card">
+                        <img src="images/icon4.png">
+                        <h2>Çocuk Tıraşı</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Error velit tenetur, voluptas dolorum eius nulla rerum ipsum</p>
+                        
+                    </li>
+
+                    <li class="card">
+                        <img src="images/icon5.png">
+                        <h2>Bakım Paketi</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Error velit tenetur, voluptas dolorum eius nulla rerum ipsum</p>
+                    </li>
+
+                    <li class="card">
+                        <img src="images/icon6.png">
+                        <h2>Bakım Paketi</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Error velit tenetur, voluptas dolorum eius nulla rerum ipsum</p>
+                        
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="company-comments">
+            <div class="comments-area-container">
+                <h1 data-lang="commentsTitle">Hizmetimizden Memnun Kalanlar</h1>
+                <h2 data-lang="commentsRating">Google'da 5 Yıldız ! -- (5,0 <span>★★★★★</span>) </h2>
+
+                <div class="comments-list">
+
+                <div class="comment-card">
+                    <div class="comment-header">
+                    <div class="comment-user">
+                        <span class="user-name">Nikola P.</span>
+                        <span class="comment-source">Google Yorumu</span>
+                    </div>
+                    <div class="comment-stars">★★★★★</div>
+                    </div>
+
+                    <p class="comment-text">
+                    The best experience I ever had, so professional, so patient and so knowlegde people. Boy who cut mine hair was big professional and without question, this started to be mine favorite haircut place in Istanbul
+                    </p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-header">
+                    <div class="comment-user">
+                        <span class="user-name">Doğuş E.</span>
+                        <span class="comment-source">Google Yorumu</span>
+                    </div>
+                    <div class="comment-stars">★★★★★</div>
+                    </div>
+
+                    <p class="comment-text">
+                    Selamlar kendim İstanbul’da yaşıyorum ajans vesilesiyle burada tıraş olmaya başladım gayet çok memnunum.. herkese tavsiye ederim ve ilaveten kuaförlükten yana gerçekten aile ortamı mevcut hizmetleri için EROL abimle UĞUR kardeşime teşekkür ederim.
+                    </p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-header">
+                    <div class="comment-user">
+                        <span class="user-name">Onur A.K.</span>
+                        <span class="comment-source">Google Yorumu</span>
+                    </div>
+                    <div class="comment-stars">★★★★★</div>
+                    </div>
+
+                    <p class="comment-text">
+                    İstanbul'daysam buradan başka yerde tıraş olmam. Alibeyköy'den kalkıp defalarca Şişli'ye tıraş olmaya gitme sebebim burasının kalitesidir.
+                    </p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-header">
+                    <div class="comment-user">
+                        <span class="user-name">Ahmet B.</span>
+                        <span class="comment-source">Google Yorumu</span>
+                    </div>
+                    <div class="comment-stars">★★★★★</div>
+                    </div>
+
+                    <p class="comment-text">
+                    Gayet ilgili ve detaylı modelli tasarım yapıyorlar önemli olan saç kesimi ziyade hem ilgili hemde güler yüzlülerdi
+                    </p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-header">
+                    <div class="comment-user">
+                        <span class="user-name">Canberk E.</span>
+                        <span class="comment-source">Google Yorumu</span>
+                    </div>
+                    <div class="comment-stars">★★★★★</div>
+                    </div>
+
+                    <p class="comment-text">
+                    Şişli'de saç ve sakal tıraşı için fiyat/performans olarak en iyi berberdir. Yaklaşık altı aydır başka bir yerde tıraş olmuyorum. Çalışanlar oldukça başarılı ve efendi.
+                    </p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-header">
+                    <div class="comment-user">
+                        <span class="user-name">Mert S.</span>
+                        <span class="comment-source">Google Yorumu</span>
+                    </div>
+                    <div class="comment-stars">★★★★★</div>
+                    </div>
+
+                    <p class="comment-text">
+                    Kalitenin, tıraşın, üstün hizmetin ve sevdiğimiz berber ortamının en hası. Birbirinden güzel insanların işlettiği vazgeçilmez berberimiz.
+                </div>
+
+                </div>
+                <span class="comments-note" data-lang="commentsNote"> Buradaki yorumlar gerçek google maps yorumlarıdır, daha fazlasını incelemek için lütfen aşağıdaki butona tıklayınız.</span>
+                <a href="https://g.page/ISLETME-ADI/review" target="_blank" class="review-btn" data-lang="moreReviews">
+                    Daha fazla incele
+                </a>
+            </div>
+        </section>
+
+         <section class="appointment-section" id="appointment">
+            <div class="appointment-image1"></div>
+            <div class="appointment-container">
+                <h1 class="appointment-title" data-lang="appointmentTitle">Randevu Alın</h1>
+                <p class="appointment-subtitle" data-lang="appointmentSubtitle">İstediğiniz tarih ve saati seçin, hizmetinizi planlayın.</p>
+
+                <form class="appointment-form" id="appointment-form">
+                <div class="form-group">
+                    <label for="fullname" data-lang="labelFullname">Ad Soyad</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Adınız ve Soyadınız" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" data-lang="labelPhone">Telefon</label>
+                    <input type="tel" id="phone" name="phone" placeholder="05XX XXX XX XX" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Hizmet Seçimi</label>
+                    <select id="service" name="service" required>
+                    <option value="">Hizmet Seçin</option>
+                    <option value="haircut" data-lang="serviceHaircut">Saç Kesimi</option>
+                    <option value="beard" data-lang="serviceBeard">Sakal Tıraşı</option>
+                    <option value="combo" data-lang="serviceCombo">Saç + Sakal</option>
+                    <option value="kids">Çocuk Tıraşı</option>
+                    <option value="care">Bakım Paketi</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="date" data-lang="labelDate">Tarih Seçin</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time" data-lang="labelTime">Saat Seçin</label>
+                    <input type="time" id="time" name="time" min="09:00" max="21:00" required>
+                </div>
+                </form>
+
+                <button 
+                type="submit" 
+                class="btn-appointment" 
+                id="btn-save-appointment" 
+                form="appointment-form" 
+                data-lang="appointmentButton"
+                >
+                    Randevuyu Kaydet
+                </button>
+
+            </div>
+            <div class="appointment-image2"></div>
+        </section>
+       
+
+        <section class="location" id="location">
+            <div class="location-container">
+
+                <div class="location-info">
+                    <span class="location-subtitle" data-lang="locationTitle">OUR LOCATION</span>
+                    <h1 class="location-title" data-lang="locationSubtitle">Bizi Burada Bulabilirsin</h1>
+
+                    <p class="location-text" data-lang="locationText">
+                        Effendy Kuaför olarak şehrin merkezindeyiz.  
+                        Kolay ulaşım, rahat park ve sıcak bir atmosfer.
+                    </p>
+
+                    <div class="location-details">
+                        <p><i class="fa-solid fa-location-dot"></i> Effendy Erkek Kuaförü, Merkez, 34381 Şişli/İstanbul</p>
+                        <p data-lang="workingHour"><i class="fa-solid fa-clock"></i> Her gün 09:00 – 21:00</p>
+                    </div>
+
+                    <a
+                        href="https://www.google.com/maps"
+                        target="_blank"
+                        class="location-btn"
+                        data-lang="locationButton"
+                    >
+                        Yol Tarifi Al <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.456789012345!2d28.986234567890!3d41.061123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7b9c3b7f9a9%3A0xabcdef1234567890!2sEffendy%20Erkek%20Kuaf%C3%B6r%C3%BC!5e0!3m2!1str!2str!4v1707520000000"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+
+                <div class="footer-brand">
+                    <h2>EFFENDY</h2>
+                    <p data-lang="footerSlogan">Premium Barber Experience</p>
+                </div>
+
+                <div class="footer-info">
+                    <span><i class="fa-solid fa-phone"></i> 999 99 99</span>
+                    <span><i class="fa-solid fa-clock"></i> 09:00 – 21:00</span>
+                </div>
+
+                <div class="footer-socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom" data-lang="footerCopy">
+                © 2026 Effendy Barber Shop
+            </div>
+        </footer>
+
+
+        <button id="backToTop" aria-label="Yukarı çık">
+            ↑
+        </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
